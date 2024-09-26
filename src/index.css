@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Customize the Google Translate top bar */
+body > .skiptranslate {
+  background-color: #2E7D32 !important; /* Change to a theme color */
+  height: 40px !important; /* Reduce its height */
+  box-shadow: none !important; /* Remove the shadow */
+}
+
+body > .skiptranslate div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white !important; /* Change text color */
+}
+
+/* Headings customization */
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif; /* Use Montserrat for headings */
+  color: #4CAF50; /* Maintain a consistent theme color */
+}
