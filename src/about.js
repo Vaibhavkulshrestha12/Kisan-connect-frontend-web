@@ -15,18 +15,18 @@ const AboutUs = () => {
       padding: '20px',
       fontFamily: 'Arial, sans-serif',
       boxSizing: 'border-box',
-      backgroundColor: '#f7f3e9' // Soft beige for a natural, earthy background
+      backgroundColor: '#f7f3e9' 
     },
     teamSectionContainer: {
       marginBottom: '40px',
-      backgroundColor: '#f4f4f4', // Light beige section background
+      backgroundColor: '#f4f4f4', 
       padding: '20px',
       borderRadius: '10px',
       boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
     },
     teamSectionHeader: {
       textAlign: 'center',
-      color: '#2C5E1A', // Dark green for text
+      color: '#2C5E1A', 
       marginBottom: '20px',
       fontSize: '28px',
       fontWeight: 'bold'
@@ -39,17 +39,17 @@ const AboutUs = () => {
     },
     teamMember: {
       textAlign: 'center',
-      backgroundColor: '#fff', // White for contrast against the beige
+      backgroundColor: '#fff',
       padding: '15px',
       borderRadius: '10px',
       boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-      animation: 'pop 0.5s ease-in-out', // Adding animation
-      transform: 'translateY(0)', // Start position
-      transition: 'transform 0.2s, box-shadow 0.2s', // Smooth transition for hover
+      animation: 'pop 0.5s ease-in-out',
+      transform: 'translateY(0)', 
+      transition: 'transform 0.2s, box-shadow 0.2s', 
     },
     teamMemberHover: {
-      transform: 'scale(1.05)', // Scale up on hover
-      boxShadow: '0 6px 12px rgba(0,0,0,0.2)', // Slightly bigger shadow
+      transform: 'scale(1.05)', 
+      boxShadow: '0 6px 12px rgba(0,0,0,0.2)', 
     },
     teamImageContainer: {
       marginBottom: '10px'
@@ -59,17 +59,17 @@ const AboutUs = () => {
       width: '150px',
       height: '150px',
       objectFit: 'cover',
-      border: '4px solid #2C5E1A' // Dark green border around images for emphasis
+      border: '4px solid #2C5E1A' 
     },
     aboutSectionContainer: {
       marginBottom: '40px',
-      backgroundColor: '#fff', // White for contrast
+      backgroundColor: '#fff',
       padding: '20px',
       borderRadius: '10px',
       boxShadow: '0 4px 8px rgba(0,0,0,0.1)'
     },
     aboutSectionHeader: {
-      color: '#2C5E1A', // Dark green for headers
+      color: '#2C5E1A', 
       marginBottom: '15px',
       fontSize: '28px',
       fontWeight: 'bold'
@@ -77,19 +77,18 @@ const AboutUs = () => {
     aboutDetails: {
       lineHeight: '1.6',
       fontSize: '16px',
-      color: '#5F5F5F' // Soft gray for readable body text
+      color: '#5F5F5F' 
     },
     listItem: {
       margin: '10px 0',
-      color: '#3D3D3D' // Darker shade for the outcome list
+      color: '#3D3D3D' 
     },
   };
 
-  // Array of team members with images, names, roles, and registration numbers
   const teamMembers = [
     { name: 'Bramhank Mishra', role: 'Team Leader', registration: '1203450', image: bk },
     { name: 'Md Ajmal Fayiz', role: 'Backend-Developer', registration: '12203447', image: faiz },
-    { name: 'Kaushik Raj', role: 'Intern', registration: '12203450', image: k },
+    { name: 'Kaushik Raj', role: 'Dev-ops', registration: '12203450', image: k },
      { name: 'Vaibhav Kulshrestha', role: 'Frontend-Developer', registration: '12314448', image: me },
      { name: 'Vashundra kumari', role: 'Ui-Designer', registration: '12201815', image: vk },
     { name: 'Khushi', role: 'Designer', registration: '12316381', image: ki }
@@ -97,7 +96,7 @@ const AboutUs = () => {
 
   return (
     <div style={styles.container}>
-      {/* Team Section */}
+      
       <section style={styles.teamSectionContainer}>
         <h2 style={styles.teamSectionHeader}>Meet the Team</h2>
         <div style={styles.teamGrid}>
@@ -132,7 +131,7 @@ const AboutUs = () => {
         </div>
       </section>
 
-      {/* About Section */}
+      
       <section style={styles.aboutSectionContainer}>
         <h2 style={styles.aboutSectionHeader}>About Us</h2>
         <div style={styles.aboutDetails}>
